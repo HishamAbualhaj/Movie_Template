@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "monsterrat";
+  src: url("../fonts/Montserrat-Light.ttf") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "monsterrat";
+  src: url("../fonts/Montserrat-Regular.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "monsterrat";
+  src: url("../fonts/Montserrat-Medium.ttf") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "monsterrat";
+  src: url("../fonts/Montserrat-SemiBold.ttf") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+body {
+  font-family: "monsterrat";
+}

@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    input:focus {
+        @apply outline-none;
+    }
+}
+@layer components {
+    .max-container {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding-inline: 25px;
+    }
+    .main-title {
+        @apply md:text-[60px] sm:text-[40px] text-[30px] font-[500] mt-3 text-white uppercase;
+    }
+    .info-text {
+        @apply  leading-6 text-gray-400 max-w-[500px] mt-2 md:text-[17px] text-[15px];
+    }
+    .tab {
+        @apply px-2 rounded-sm text-white uppercase;
+    }
+    .btn {
+        @apply cursor-pointer rounded-full py-2 px-6 uppercase text-white;
+    }
+    .arrow {
+        @apply after:border-t-2 after:border-l-2 after:w-4 after:h-4 after:border-gray-500 after:!content-[''] after:!absolute;
+    }
+    .arrow.arrow-left {
+        @apply  after:-rotate-45;
+    }
+    .arrow.arrow-right {
+        @apply  after:rotate-[135deg];
+    }
+}
