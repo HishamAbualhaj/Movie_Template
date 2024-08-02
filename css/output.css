@@ -808,6 +808,10 @@ input:focus {
   width: 3rem;
 }
 
+.\!w-full {
+  width: 100% !important;
+}
+
 .min-w-fit {
   min-width: -moz-fit-content;
   min-width: fit-content;
@@ -1147,6 +1151,10 @@ input:focus {
   padding-top: 1.25rem;
 }
 
+.pb-8 {
+  padding-bottom: 2rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1189,6 +1197,14 @@ input:focus {
 
 .text-\[25px\] {
   font-size: 25px;
+}
+
+.text-\[40px\] {
+  font-size: 40px;
+}
+
+.text-\[20px\] {
+  font-size: 20px;
 }
 
 .font-\[500\] {
@@ -1244,6 +1260,10 @@ input:focus {
 .text-yellow-400 {
   --tw-text-opacity: 1;
   color: rgb(250 204 21 / var(--tw-text-opacity));
+}
+
+.text-\[\] {
+  color: ;
 }
 
 .transition-all {
