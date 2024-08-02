@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      spacing: {
+        'sidebar-space': 'calc(-100% - 25px)', // Custom value
+      },
       colors : {
         'main-clr' : '#fd0f20'
       },
