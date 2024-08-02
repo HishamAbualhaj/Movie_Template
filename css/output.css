@@ -658,6 +658,10 @@ input:focus {
   position: relative;
 }
 
+.-left-full {
+  left: -100%;
+}
+
 .bottom-0 {
   bottom: 0px;
 }
@@ -670,10 +674,6 @@ input:focus {
   left: 50%;
 }
 
-.left-sidebar-space {
-  left: calc(-100% - 25px);
-}
-
 .top-0 {
   top: 0px;
 }
@@ -682,12 +682,24 @@ input:focus {
   top: 50%;
 }
 
+.top-full {
+  top: 100%;
+}
+
+.left-sidebar-space {
+  left: calc(-100% - 25px);
+}
+
+.top-16 {
+  top: 4rem;
+}
+
 .top-20 {
   top: 5rem;
 }
 
-.top-full {
-  top: 100%;
+.top-24 {
+  top: 6rem;
 }
 
 .-z-10 {
@@ -696,6 +708,10 @@ input:focus {
 
 .z-10 {
   z-index: 10;
+}
+
+.z-0 {
+  z-index: 0;
 }
 
 .mx-auto {
@@ -763,6 +779,10 @@ input:focus {
   height: 1px;
 }
 
+.h-\[100vh\] {
+  height: 100vh;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -792,6 +812,18 @@ input:focus {
   width: 100%;
 }
 
+.w-12 {
+  width: 3rem;
+}
+
+.\!w-full {
+  width: 100% !important;
+}
+
+.w-\[500px\] {
+  width: 500px;
+}
+
 .min-w-fit {
   min-width: -moz-fit-content;
   min-width: fit-content;
@@ -807,6 +839,10 @@ input:focus {
 
 .max-w-full {
   max-width: 100%;
+}
+
+.max-w-\[500px\] {
+  max-width: 500px;
 }
 
 .flex-1 {
@@ -849,6 +885,10 @@ input:focus {
 
 .items-center {
   align-items: center;
+}
+
+.items-baseline {
+  align-items: baseline;
 }
 
 .justify-start {
@@ -1012,6 +1052,11 @@ input:focus {
   background-color: transparent;
 }
 
+.bg-violet-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(109 40 217 / var(--tw-bg-opacity));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -1020,6 +1065,11 @@ input:focus {
 .bg-yellow-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(234 179 8 / var(--tw-bg-opacity));
+}
+
+.bg-slate-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
 }
 
 .bg-mission {
@@ -1052,6 +1102,21 @@ input:focus {
      object-fit: cover;
 }
 
+.object-fill {
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.object-none {
+  -o-object-fit: none;
+     object-fit: none;
+}
+
+.object-top {
+  -o-object-position: top;
+     object-position: top;
+}
+
 .p-3 {
   padding: 0.75rem;
 }
@@ -1078,6 +1143,11 @@ input:focus {
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .py-2 {
@@ -1108,16 +1178,16 @@ input:focus {
   padding-bottom: 1rem;
 }
 
-.pb-8 {
-  padding-bottom: 2rem;
-}
-
 .pl-3 {
   padding-left: 0.75rem;
 }
 
 .pt-5 {
   padding-top: 1.25rem;
+}
+
+.pb-8 {
+  padding-bottom: 2rem;
 }
 
 .text-center {
@@ -1144,16 +1214,8 @@ input:focus {
   font-size: 17px;
 }
 
-.text-\[20px\] {
-  font-size: 20px;
-}
-
 .text-\[22px\] {
   font-size: 22px;
-}
-
-.text-\[25px\] {
-  font-size: 25px;
 }
 
 .text-\[28px\] {
@@ -1168,8 +1230,16 @@ input:focus {
   font-size: 35px;
 }
 
+.text-\[25px\] {
+  font-size: 25px;
+}
+
 .text-\[40px\] {
   font-size: 40px;
+}
+
+.text-\[20px\] {
+  font-size: 20px;
 }
 
 .font-\[500\] {
@@ -1225,6 +1295,33 @@ input:focus {
 .text-yellow-400 {
   --tw-text-opacity: 1;
   color: rgb(250 204 21 / var(--tw-text-opacity));
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-blue-500 {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
+.text-blue-400 {
+  --tw-text-opacity: 1;
+  color: rgb(96 165 250 / var(--tw-text-opacity));
+}
+
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+.opacity-75 {
+  opacity: 0.75;
+}
+
+.opacity-50 {
+  opacity: 0.5;
 }
 
 .transition-all {
@@ -1299,6 +1396,11 @@ input:focus {
 }
 
 @media not all and (min-width: 1280px) {
+  .max-xl\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .max-xl\:hidden {
     display: none;
   }
@@ -1326,6 +1428,16 @@ input:focus {
   .max-md\:py-10 {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
+  }
+}
+
+@media not all and (min-width: 640px) {
+  .max-sm\:flex-col {
+    flex-direction: column;
+  }
+
+  .max-sm\:gap-5 {
+    gap: 1.25rem;
   }
 }
 
@@ -1366,6 +1478,14 @@ input:focus {
 
   .md\:w-\[620px\] {
     width: 620px;
+  }
+
+  .md\:w-\[700px\] {
+    width: 700px;
+  }
+
+  .md\:w-\[800px\] {
+    width: 800px;
   }
 
   .md\:translate-y-\[-50\%\] {
